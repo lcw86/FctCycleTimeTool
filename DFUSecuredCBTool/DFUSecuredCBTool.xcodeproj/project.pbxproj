@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAEC474C242B9EAF00DE8A2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEC474B242B9EAF00DE8A2B /* AppDelegate.m */; };
+		BAEC474F242B9EAF00DE8A2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEC474E242B9EAF00DE8A2B /* ViewController.m */; };
+		BAEC4751242B9EB400DE8A2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAEC4750242B9EB400DE8A2B /* Assets.xcassets */; };
+		BAEC4754242B9EB400DE8A2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAEC4752242B9EB400DE8A2B /* Main.storyboard */; };
+		BAEC4757242B9EB400DE8A2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEC4756242B9EB400DE8A2B /* main.m */; };
+		BAEC4764242BA88000DE8A2B /* libDFUSecuredCB.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BAEC4763242BA88000DE8A2B /* libDFUSecuredCB.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BAEC4747242B9EAF00DE8A2B /* DFUSecuredCBTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFUSecuredCBTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEC474A242B9EAF00DE8A2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BAEC474B242B9EAF00DE8A2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BAEC474D242B9EAF00DE8A2B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BAEC474E242B9EAF00DE8A2B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BAEC4750242B9EB400DE8A2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAEC4753242B9EB400DE8A2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAEC4755242B9EB400DE8A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAEC4756242B9EB400DE8A2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAEC4758242B9EB400DE8A2B /* DFUSecuredCBTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DFUSecuredCBTool.entitlements; sourceTree = "<group>"; };
+		BAEC4760242B9EE500DE8A2B /* get_hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = get_hash.h; sourceTree = "<group>"; };
+		BAEC4763242BA88000DE8A2B /* libDFUSecuredCB.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libDFUSecuredCB.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAEC4744242B9EAF00DE8A2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEC4764242BA88000DE8A2B /* libDFUSecuredCB.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAEC473E242B9EAF00DE8A2B = {
+			isa = PBXGroup;
+			children = (
+				BAEC4749242B9EAF00DE8A2B /* DFUSecuredCBTool */,
+				BAEC4748242B9EAF00DE8A2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAEC4748242B9EAF00DE8A2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAEC4747242B9EAF00DE8A2B /* DFUSecuredCBTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAEC4749242B9EAF00DE8A2B /* DFUSecuredCBTool */ = {
+			isa = PBXGroup;
+			children = (
+				BAEC4763242BA88000DE8A2B /* libDFUSecuredCB.dylib */,
+				BAEC4760242B9EE500DE8A2B /* get_hash.h */,
+				BAEC474A242B9EAF00DE8A2B /* AppDelegate.h */,
+				BAEC474B242B9EAF00DE8A2B /* AppDelegate.m */,
+				BAEC474D242B9EAF00DE8A2B /* ViewController.h */,
+				BAEC474E242B9EAF00DE8A2B /* ViewController.m */,
+				BAEC4750242B9EB400DE8A2B /* Assets.xcassets */,
+				BAEC4752242B9EB400DE8A2B /* Main.storyboard */,
+				BAEC4755242B9EB400DE8A2B /* Info.plist */,
+				BAEC4756242B9EB400DE8A2B /* main.m */,
+				BAEC4758242B9EB400DE8A2B /* DFUSecuredCBTool.entitlements */,
+			);
+			path = DFUSecuredCBTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAEC4746242B9EAF00DE8A2B /* DFUSecuredCBTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAEC475B242B9EB400DE8A2B /* Build configuration list for PBXNativeTarget "DFUSecuredCBTool" */;
+			buildPhases = (
+				BAEC4743242B9EAF00DE8A2B /* Sources */,
+				BAEC4744242B9EAF00DE8A2B /* Frameworks */,
+				BAEC4745242B9EAF00DE8A2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DFUSecuredCBTool;
+			productName = DFUSecuredCBTool;
+			productReference = BAEC4747242B9EAF00DE8A2B /* DFUSecuredCBTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAEC473F242B9EAF00DE8A2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "ciwei luo";
+				TargetAttributes = {
+					BAEC4746242B9EAF00DE8A2B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = BAEC4742242B9EAF00DE8A2B /* Build configuration list for PBXProject "DFUSecuredCBTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAEC473E242B9EAF00DE8A2B;
+			productRefGroup = BAEC4748242B9EAF00DE8A2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAEC4746242B9EAF00DE8A2B /* DFUSecuredCBTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAEC4745242B9EAF00DE8A2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEC4751242B9EB400DE8A2B /* Assets.xcassets in Resources */,
+				BAEC4754242B9EB400DE8A2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAEC4743242B9EAF00DE8A2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEC474F242B9EAF00DE8A2B /* ViewController.m in Sources */,
+				BAEC4757242B9EB400DE8A2B /* main.m in Sources */,
+				BAEC474C242B9EAF00DE8A2B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BAEC4752242B9EB400DE8A2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAEC4753242B9EB400DE8A2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAEC4759242B9EB400DE8A2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BAEC475A242B9EB400DE8A2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BAEC475C242B9EB400DE8A2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DFUSecuredCBTool/DFUSecuredCBTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DFUSecuredCBTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DFUSecuredCBTool",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.suncode.DFUSecuredCBTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BAEC475D242B9EB400DE8A2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DFUSecuredCBTool/DFUSecuredCBTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DFUSecuredCBTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DFUSecuredCBTool",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.suncode.DFUSecuredCBTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAEC4742242B9EAF00DE8A2B /* Build configuration list for PBXProject "DFUSecuredCBTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEC4759242B9EB400DE8A2B /* Debug */,
+				BAEC475A242B9EB400DE8A2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAEC475B242B9EB400DE8A2B /* Build configuration list for PBXNativeTarget "DFUSecuredCBTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEC475C242B9EB400DE8A2B /* Debug */,
+				BAEC475D242B9EB400DE8A2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAEC473F242B9EAF00DE8A2B /* Project object */;
+}

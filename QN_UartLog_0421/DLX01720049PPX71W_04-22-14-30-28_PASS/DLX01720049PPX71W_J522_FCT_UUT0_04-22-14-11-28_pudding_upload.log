@@ -1,0 +1,16 @@
+=======================>engine log_folder:/vault/Suncode_log
+=======================>engine log_files:[]
+=======================>add log:['', u'/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_pivot.csv', u'/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_FAIL_Summary.csv', '', u'/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_flow_plain.log', u'/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_datalogger.csv', u'/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_hw.log', u'/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_uart2.txt', u'/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_uart3.txt', u'/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_uart.txt', u'/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_flow.log', u'/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_engine.log', u'/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_sequencer.log', '/Users/Suncode_log/changedFileList.txt', '/vault/Suncode_log/fwupload.txt', '']
+=======================>total logs:['', u'/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_pivot.csv', u'/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_FAIL_Summary.csv', '', u'/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_flow_plain.log', u'/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_datalogger.csv', u'/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_hw.log', u'/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_uart2.txt', u'/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_uart3.txt', u'/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_uart.txt', u'/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_flow.log', u'/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_engine.log', u'/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_sequencer.log', '/Users/Suncode_log/changedFileList.txt', '/vault/Suncode_log/fwupload.txt', '', u'/vault/Suncode_log/J522_FCT_UUT0_04-22-14-11-28_pudding_upload.log']
+=======================>found log:/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_pivot.csv
+=======================>found log:/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_FAIL_Summary.csv
+=======================>found log:/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_flow_plain.log
+=======================>found log:/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_datalogger.csv
+=======================>found log:/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_hw.log
+=======================>found log:/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_uart2.txt
+=======================>found log:/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_uart3.txt
+=======================>found log:/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_uart.txt
+=======================>found log:/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_flow.log
+=======================>found log:/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_engine.log
+=======================>found log:/vault/Suncode_log/J522_FCT_UUT1__04-22-14-11-28_sequencer.log
+=======================>found log:/vault/Suncode_log/J522_FCT_UUT0_04-22-14-11-28_pudding_upload.log

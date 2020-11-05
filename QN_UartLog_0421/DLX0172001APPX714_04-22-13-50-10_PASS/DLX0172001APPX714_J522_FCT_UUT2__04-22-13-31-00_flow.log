@@ -1,0 +1,14 @@
+
+==Test: Orion
+==SubTest: Consumer_Mode_HSAID_COMMS-PPVBUS_ORION9V3A
+==SubSubTest: UUT_UART_SET_115200
+2020-04-22 13:35:43.172801          [001A0594:3640013A] :-) 
+2020-04-22 13:35:43.172808          cmd-send: baud --set 115200
+2020-04-22 13:35:44.177203          
+2020-04-22 13:35:44.177228          cmd-send: 
+2020-04-22 13:35:44.177507          
+2020-04-22 13:35:44.177518          cmd-send: 
+			lower:; upper:; value:--PASS--NOPDCA
+2020-04-22 13:35:44.178520   PASS
+
+
